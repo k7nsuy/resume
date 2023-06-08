@@ -5,10 +5,11 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    'VR이 처음 도입되었을 때 첨단 기술에 대한 흥미로 IT에 대한 관심을 기울이기 시작해, 지금은 개발 및 DevOps 역량을 갖춘 Software Engineer로서 지속적인 성장을 하고 있습니다.',
+    '처음 프로그래밍 언어 공부를 시작 할 때 Server와 Client의 개념도 모르고 개발을 시작했던 것과 달리, 현재는 Cloud를 이용한 가상 서버를 구축, 그에 따른 필요한 보안, 네트워크의 흐름을 파악하여 Docker 또는 Kubernetes를 통해 MSA 기반 컨테이너 환경을 제공, CI/CD를 이용한 지속적인 빌드와 배포, 모니터링를 통해 실시간 장애 대응이 가능하도록 실무 능력과 지식을 쌓았습니다.',
+    '일을 병행하면서 사이드 프로젝트로 Docker 컨테이너와 Express.js 프레임워크 및 Pug 엔진을 사용해 동영상 업로드 서비스를 최종 빌드 및 배포중이며, 또 다른 프로젝트로 Typescript 및 GraphQL을 이용한 API 서비스를 구축하는 것을 목표로 사이드 프로젝트를 진행중에 있습니다.',
   ],
-  sign: 'Love poem',
+  sign: '유상우',
   // sign: packageJson.author.name,
   // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,

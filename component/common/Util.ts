@@ -16,7 +16,7 @@ function getFormattingDuration(from: DateTime, to: DateTime = DateTime.local()) 
   const log = debug('Util:getFormattingDuration');
 
   // 햇수 계산을 위해 month 에 1개월 추가
-  const diff = to.plus({ month: 1 }).diff(from);
+  const diff = to.plus({ month: 1.5 }).diff(from);
 
   log(diff.milliseconds, diff.get('years'));
 

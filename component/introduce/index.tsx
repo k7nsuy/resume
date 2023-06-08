@@ -22,9 +22,9 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
     payload.latestUpdated,
     Util.LUXON_DATE_FORMAT.YYYY_LL_DD,
   );
-  const latestUpdatedByNow = Math.floor(
-    DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
-  );
+  // const latestUpdatedByNow = Math.floor(
+  //   DateTime.local().diff(latestUpdated).milliseconds / 1000 / 60 / 60 / 24,
+  // );
 
   return (
     <div className="mt-5">
@@ -39,9 +39,8 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <p className="text-right">
             <small>Latest Updated</small>{' '}
             <Badge color="secondary">
-              {`${latestUpdated.toFormat(
-                Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD,
-              )} (D+${latestUpdatedByNow})`}
+              {`${latestUpdated.toFormat(Util.LUXON_DATE_FORMAT.YYYY_DOT_LL_DOT_DD)}        `}
+              {/* (D+${latestUpdatedByNow}) */}
             </Badge>
           </p>
           <p className="text-right" style={Style.sign}>
