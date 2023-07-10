@@ -4,7 +4,15 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'Nest.js',
+      level: 2,
+    },
+    {
+      title: 'Typescript',
+      level: 2,
+    },
+    {
+      title: 'Express.js',
       level: 2,
     },
     {
