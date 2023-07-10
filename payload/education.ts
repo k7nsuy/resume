@@ -5,6 +5,12 @@ const education: IEducation.Payload = {
 
   list: [
     {
+      title: 'Selc College',
+      subTitle: 'Business & English',
+      startedAt: '2019-08',
+      endedAt: '2020-07',
+    },
+    {
       title: '인제대학교',
       subTitle: '기계공학 및 영어영문학 복수전공',
       startedAt: '2009-03',

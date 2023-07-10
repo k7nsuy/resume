@@ -112,6 +112,10 @@ const etc: ISkill.Skill = {
   category: 'etc',
   items: [
     {
+      title: 'English',
+      level: 3,
+    },
+    {
       title: 'Linux',
       level: 3,
     },
