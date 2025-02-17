@@ -1,0 +1,54 @@
+import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+// import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.jpg';
+import { IProfile } from '../component/profile/IProfile';
+
+const profile: IProfile.Payload = {
+  disable: false,
+
+  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
+  image,
+  name: {
+    title: '유상우',
+    // small: '(LI)',
+  },
+  contact: [
+    {
+      title: 'k7nsuy2@gmail.com',
+      link: '#',
+      icon: faEnvelope,
+    },
+    {
+      title: '010-5553-0781',
+      icon: faPhone,
+      badge: true,
+    },
+    // {
+    //   title: 'https://linkedin.com/in/sangwoo-yu-bb7795217',
+    //   link: 'https://linkedin.com/in/sangwoo-yu-bb7795217',
+    //   icon: faLinkedin,
+    // },
+    {
+      title: 'https://github.com/k7nsuy',
+      link: 'https://github.com/k7nsuy',
+      icon: faGithub,
+    },
+    {
+      link: 'https://velog.io/@k7nsuy',
+      icon: faBlog,
+    },
+    // {
+    //   title: 'YouTube',
+    //   link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+    //   // icon: faRss,
+    //   icon: faYoutube,
+    // },
+  ],
+  notice: {
+    title: '',
+    icon: undefined,
+  },
+};
+
+export default profile;
