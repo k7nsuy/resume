@@ -1,4 +1,4 @@
-import { faBlog, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile.jpg';
@@ -19,11 +19,11 @@ const profile: IProfile.Payload = {
       link: '#',
       icon: faEnvelope,
     },
-    {
-      title: '010-5553-0781',
-      icon: faPhone,
-      badge: true,
-    },
+    // {
+    //   title: '',
+    //   icon: faPhone,
+    //   badge: true,
+    // },
     // {
     //   title: 'https://linkedin.com/in/sangwoo-yu-bb7795217',
     //   link: 'https://linkedin.com/in/sangwoo-yu-bb7795217',
