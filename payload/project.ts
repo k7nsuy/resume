@@ -20,7 +20,7 @@ const project: IProject.Payload = {
           content: 'Prometheus 및 Grafana를 이용해 실시간 대응 모니터링 시스템 설계',
         },
         {
-          content: '프로젝트 랜딩 페이지 : ',
+          content: 'Landing Page : ',
           postHref: 'https://www.bsideu.ca',
           weight: 'BOLD',
         },
