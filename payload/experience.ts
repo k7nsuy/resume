@@ -53,7 +53,7 @@ const experience: IExperience.Payload = {
       title: '베스핀글로벌',
       position: 'DevOps Engineer',
       startedAt: '2022-02',
-      endedAt: '2023-04',
+      endedAt: '2023-05',
       descriptions: [
         'AWS 서비스 구축 및 장애 대응 (VPC, EC2, RDS, ELB, Route53, IAM, EKS, ECS, etc)',
         'Node.js 및 Java 환경 서비스 CI/CD 자동화 구현으로 서비스 빌드 및 배포 시간 70% 이상 단축 및 개발자 커뮤니케이션 비용 30% 이상 감소',
@@ -85,7 +85,7 @@ const experience: IExperience.Payload = {
       title: '베스핀글로벌',
       position: 'Internship & Trainee',
       startedAt: '2021-08',
-      endedAt: '2021-12',
+      endedAt: '2022-02',
       descriptions: [
         '클라우드 서비스(AWS, GCP, Azure) 및 네트워크',
         'WEB, WAS, DB 3-tier 구축',
