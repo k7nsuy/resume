@@ -1,6 +1,6 @@
 import { faBlog, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 // import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -24,11 +24,11 @@ const profile: IProfile.Payload = {
     //   icon: faPhone,
     //   badge: true,
     // },
-    {
-      title: 'https://www.linkedin.com/in/jordan-yu-/',
-      link: 'https://www.linkedin.com/in/jordan-yu-/',
-      icon: faLinkedin,
-    },
+    // {
+    //   title: 'https://www.linkedin.com/in/jordan-yu-/',
+    //   link: 'https://www.linkedin.com/in/jordan-yu-/',
+    //   icon: faLinkedin,
+    // },
     {
       title: 'https://github.com/k7nsuy',
       link: 'https://github.com/k7nsuy',
