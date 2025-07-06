@@ -6,15 +6,17 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: 'Outlier',
-      position: 'DevOps Engineer',
-      startedAt: '2023-12',
+      position: 'Full Stack Engineer',
+      startedAt: '2024-12',
       endedAt: '',
       descriptions: [
-        'GitHub Actions와 AWS CodePipeline을 활용해 CI/CD 파이프라인을 자동화, 배포 시간을 70% 단축하고 무중단 배포를 실현',
-        'AWS EKS 상에서 Kubernetes 인프라를 운영하며 Pod 오토스케일링 및 롤링 업데이트를 개선, 서비스 중단을 80% 감소',
-        'Terraform을 활용한 IaC(Infrastructure as Code)를 통해 VPC, RDS, IAM 역할, EKS 클러스터 등의 AWS 리소스를 프로비저닝 및 관리하여 인프라 일관성을 높이고 초기 셋업 시간을 60% 절감',
-        'Prometheus와 Grafana를 통합하여 실시간 시스템 모니터링 및 알림 기능을 구축, 장애 대응 시간을 50% 이상 단축',
-        'CPU/메모리 메트릭 및 APM 도구를 활용한 리소스 최적화 전략을 구현하여, 성능 저하 없이 클라우드 비용을 30% 절감',
+        '웹 기반 UI 시스템을 개발하여 AI 모델의 동적 등록 및 Kubernetes Pod 자동 생성을 구현, 모델 배포 효율성 향상',
+        'AI 워크로드 운영을 위한 Kubernetes 인프라를 설계 및 관리, 확장성과 안정성을 확보',
+        '모델 간 순차 및 병렬 실행이 가능한 워크플로우 엔진을 구축하여 복잡한 파이프라인 구성 유연성 확보',
+        'Kafka 기반의 비동기 메시징 시스템을 도입하여 모델 간 안정적인 데이터 파이프라인을 구성',
+        '자동 및 수동 스케줄링 기능을 통해 대용량 배치 처리 자동화, 운영 리소스 절감',
+        '사용자 스토리지 업로드를 실시간 감지하는 모니터링 시스템을 구현, 데이터 업로드 시 자동 워크플로우 실행',
+        '다중 AI 컨테이너의 리소스 사용률, 추론 시간, 성능 지표를 실시간 수집 및 시각화하여 운영 리포트 자동 생성',
       ],
       skillKeywords: [
         'AWS',
