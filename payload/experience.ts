@@ -6,7 +6,7 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: 'Outlier',
-      position: 'Full Stack Engineer',
+      position: '풀스택 엔지니어',
       startedAt: '2024-12',
       endedAt: '',
       descriptions: [
@@ -18,17 +18,7 @@ const experience: IExperience.Payload = {
         '사용자 스토리지 업로드를 실시간 감지하는 모니터링 시스템을 구현, 데이터 업로드 시 자동 워크플로우 실행',
         '다중 AI 컨테이너의 리소스 사용률, 추론 시간, 성능 지표를 실시간 수집 및 시각화하여 운영 리포트 자동 생성',
       ],
-      skillKeywords: [
-        'AWS',
-        'Docker',
-        'Kubernetes',
-        'Terraform',
-        'CI/CD',
-        'Prometheus',
-        'Grafana',
-        'Ansible',
-        'Python',
-      ],
+      skillKeywords: ['Kubernetes', 'Python', 'FastAPI', 'React.js', 'CI/CD', 'AWS'],
     },
     {
       title: 'Ninehire',
@@ -56,7 +46,7 @@ const experience: IExperience.Payload = {
     },
     {
       title: '베스핀글로벌',
-      position: 'DevOps Engineer',
+      position: '데브옵스 엔지니어',
       startedAt: '2022-02',
       endedAt: '2023-05',
       descriptions: [
@@ -94,7 +84,7 @@ const experience: IExperience.Payload = {
       title: '베스핀글로벌',
       position: 'Internship & Trainee',
       startedAt: '2021-08',
-      endedAt: '2022-02',
+      endedAt: '2021-12',
       descriptions: [
         'AWS 서비스 구축 및 장애 대응 (VPC, EC2, RDS, ELB, Route53, IAM, S3, EKS, ECS, Lambda, EventBridge, API Gateway, Amplify, etc.)',
         '서비스 CI/CD 자동화 구현으로 서비스 빌드 및 배포 시간 70% 이상 단축 및 개발자 커뮤니케이션 비용 30% 이상 감소',

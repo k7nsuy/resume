@@ -5,7 +5,7 @@ const project: IProject.Payload = {
   list: [
     {
       title: '협업 관련 서비스 앱',
-      startedAt: '2024-12',
+      startedAt: '2025-05',
       where: 'Side Project',
       descriptions: [
         {
@@ -18,6 +18,11 @@ const project: IProject.Payload = {
         },
         {
           content: 'Prometheus 및 Grafana를 이용해 실시간 대응 모니터링 시스템 설계',
+        },
+        {
+          content: 'Developing Page : ',
+          postHref: 'https://www.dev.bsideu.ca',
+          weight: 'BOLD',
         },
         {
           content: 'Landing Page : ',
